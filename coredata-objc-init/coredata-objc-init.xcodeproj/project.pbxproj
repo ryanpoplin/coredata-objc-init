@@ -15,6 +15,8 @@
 		4AF345421C2877A3001B2C99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF345401C2877A3001B2C99 /* LaunchScreen.storyboard */; };
 		4AF3454D1C2877A5001B2C99 /* coredata_objc_initTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3454C1C2877A5001B2C99 /* coredata_objc_initTests.m */; };
 		4AF345581C2877A5001B2C99 /* coredata_objc_initUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF345571C2877A5001B2C99 /* coredata_objc_initUITests.m */; };
+		4AF3456F1C287C5D001B2C99 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3456E1C287C5D001B2C99 /* TableViewController.m */; };
+		4AF345711C287D4A001B2C99 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF345701C287D4A001B2C99 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		4AF345531C2877A5001B2C99 /* coredata-objc-initUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coredata-objc-initUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF345571C2877A5001B2C99 /* coredata_objc_initUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coredata_objc_initUITests.m; sourceTree = "<group>"; };
 		4AF345591C2877A5001B2C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF3456D1C287C5D001B2C99 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		4AF3456E1C287C5D001B2C99 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		4AF345701C287D4A001B2C99 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF345711C287D4A001B2C99 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +86,7 @@
 		4AF345231C2877A2001B2C99 = {
 			isa = PBXGroup;
 			children = (
+				4AF345701C287D4A001B2C99 /* CoreData.framework */,
 				4AF3452E1C2877A2001B2C99 /* coredata-objc-init */,
 				4AF3454B1C2877A5001B2C99 /* coredata-objc-initTests */,
 				4AF345561C2877A5001B2C99 /* coredata-objc-initUITests */,
@@ -108,6 +115,8 @@
 				4AF345431C2877A3001B2C99 /* Info.plist */,
 				4AF3453B1C2877A3001B2C99 /* coredata_objc_init.xcdatamodeld */,
 				4AF3452F1C2877A2001B2C99 /* Supporting Files */,
+				4AF3456D1C287C5D001B2C99 /* TableViewController.h */,
+				4AF3456E1C287C5D001B2C99 /* TableViewController.m */,
 			);
 			path = "coredata-objc-init";
 			sourceTree = "<group>";
@@ -271,6 +280,7 @@
 				4AF345341C2877A2001B2C99 /* AppDelegate.m in Sources */,
 				4AF3453D1C2877A3001B2C99 /* coredata_objc_init.xcdatamodeld in Sources */,
 				4AF345311C2877A2001B2C99 /* main.m in Sources */,
+				4AF3456F1C287C5D001B2C99 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +504,7 @@
 				4AF3455E1C2877A5001B2C99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AF3455F1C2877A5001B2C99 /* Build configuration list for PBXNativeTarget "coredata-objc-initTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +513,7 @@
 				4AF345611C2877A5001B2C99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AF345621C2877A5001B2C99 /* Build configuration list for PBXNativeTarget "coredata-objc-initUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +522,7 @@
 				4AF345641C2877A5001B2C99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
